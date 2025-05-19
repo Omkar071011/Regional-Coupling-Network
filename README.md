@@ -26,9 +26,8 @@ The **Regional Coupling Network** leverages **Graph Convolutional Networks (GCNs
 **Visual Evaluation:**
 
 - **1-Month Forecast**:
-- ![image](https://github.com/user-attachments/assets/45db9a63-a124-4e02-935e-6c0e1194dd4c)  
-  - RMSE: `0.1278`  
-  - Correlation: `0.9867`
+ ![image](https://github.com/user-attachments/assets/45db9a63-a124-4e02-935e-6c0e1194dd4c)  
+
 
 - **3-Month Forecast**:  
   - RMSE: `0.3556`  
