@@ -33,15 +33,13 @@ The **Regional Coupling Network** leverages **Graph Convolutional Networks (GCNs
 
 - **3-Month Forecast**:  
 
-  -![image]![image](https://github.com/user-attachments/assets/69a6a2d2-91c4-4590-986e-19372ba6ce8c)
+  -![image]![image]![image](https://github.com/user-attachments/assets/2c590194-0f47-489f-a3a6-296d01240098)
+
 
 - **6-Month Forecast**:  
 
    -![image](https://github.com/user-attachments/assets/45db9a63-a124-4e02-935e-6c0e1194dd4c)
 
-
-![3 Month Forecast](./figures/figure_4_2.png)  
-![6 Month Forecast](./figures/figure_4_3.png)
 
 > *Note: The model performs exceptionally well up to 3 months, with slight underestimation during extreme events.*
 
