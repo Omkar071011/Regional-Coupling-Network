@@ -45,13 +45,13 @@ All datasets were normalized and filtered to grid points over ocean (55°S–60�
 
 - **1-Month Forecast**:
   
- -![image]![image](https://github.com/user-attachments/assets/69a6a2d2-91c4-4590-986e-19372ba6ce8c)
+ -![image](https://github.com/user-attachments/assets/69a6a2d2-91c4-4590-986e-19372ba6ce8c)
 
 
 
 - **3-Month Forecast**:  
 
-  -![image]![image]![image](https://github.com/user-attachments/assets/2c590194-0f47-489f-a3a6-296d01240098)
+  -![image](https://github.com/user-attachments/assets/2c590194-0f47-489f-a3a6-296d01240098)
 
 
 - **6-Month Forecast**:  
