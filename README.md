@@ -15,6 +15,24 @@ The **Regional Coupling Network** leverages **Graph Convolutional Networks (GCNs
 - **Interpretable edge structures** aligning with known ENSO dynamics.
 - Trained on NOAA ERSSTv5 data and validated using ONI predictions.
 
+
+## 🧪 Dataset
+
+- **NOAA ERSSTv5**
+- **CMIP5 Historical Simulations**
+- **SODA & GODAS Reanalysis**
+
+All datasets were normalized and filtered to grid points over ocean (55°S–60°N and 0–360°W) at 5° resolution.
+
+## 🛠️ Methodology
+
+1. **Graph construction** via learnable adjacency matrix.
+2. **Node features**: Historical SST & heat content anomalies.
+3. **Forecasting target**: Oceanic Niño Index (ONI).
+4. **Loss function**: Mean Squared Error (MSE).
+5. **Optimization**: SGD with ELU activations.
+
+
 ## 📊 Results
 
 | Model                      | 1 Month Lead | 3 Months Lead | 6 Months Lead |
@@ -42,22 +60,6 @@ The **Regional Coupling Network** leverages **Graph Convolutional Networks (GCNs
 
 
 > *Note: The model performs exceptionally well up to 3 months, with slight underestimation during extreme events.*
-
-## 🧪 Dataset
-
-- **NOAA ERSSTv5**
-- **CMIP5 Historical Simulations**
-- **SODA & GODAS Reanalysis**
-
-All datasets were normalized and filtered to grid points over ocean (55°S–60°N and 0–360°W) at 5° resolution.
-
-## 🛠️ Methodology
-
-1. **Graph construction** via learnable adjacency matrix.
-2. **Node features**: Historical SST & heat content anomalies.
-3. **Forecasting target**: Oceanic Niño Index (ONI).
-4. **Loss function**: Mean Squared Error (MSE).
-5. **Optimization**: SGD with ELU activations.
 
 
 ---
